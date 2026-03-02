@@ -1,0 +1,20 @@
+Machine Learning Fundamentals
+
+Machine learning is a subset of artificial intelligence that enables computers 
+to learn from data without being explicitly programmed. There are three main 
+types of machine learning:
+
+Supervised Learning: The algorithm learns from labeled training data. Examples 
+include image classification, spam detection, and price prediction.
+
+Unsupervised Learning: The algorithm finds patterns in unlabeled data. Common 
+applications include customer segmentation, anomaly detection, and recommendation 
+systems.
+
+Reinforcement Learning: The algorithm learns by interacting with an environment 
+and receiving feedback. This is used in robotics, game playing, and autonomous 
+vehicles.
+
+Deep learning is a specialized form of machine learning that uses neural networks 
+with multiple layers. It has revolutionized fields like computer vision, natural 
+language processing, and speech recognition.
