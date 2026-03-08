@@ -3,5 +3,6 @@ langchain-core
 langchain-community
 langchain-openai
 langchain-text-splitters
+youtube-transcript-api
 python-dotenv
 endee
