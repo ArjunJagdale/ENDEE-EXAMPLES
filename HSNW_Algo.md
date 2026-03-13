@@ -232,56 +232,37 @@ Node 6 connects to: **4, 5**
 ## Layer 0 - Final Graph
 
 ```
-2 - 1 - 3 - 5 - 6 - 4
-        |       |
-        └-------┘
-        (3↔5 both connected)
-```
-
-Cleaner view:
-
-```
-2 ←→ 1 ←→ 3 ←→ 5 ←→ 6 ←→ 4
-           ↕         
-      (1 also connects to 5)
+1-> 3, 6
+2-> 1, 3
+3-> 1, 5
+4-> 5, 6
+5-> 3, 6
+6-> 4, 5
 ```
 
 ---
 
-## Layer 1 - Promoted Nodes: 1, 3, 6
+## Layer 1 - Promoted Nodes: 1, 3, 6 (assumption!)
 
 From the table, top neighbor pairs among {1, 3, 6}:
 
 ```
-1 vs 3 → 0.981  ✓
-3 vs 6 → 0.942  ✓
-1 vs 6 → 0.858
+1 to 3 → 0.981
+3 to 6 → 0.942  
+1 to 6 → 0.858
 ```
 
 ```
+So the Layer 1 is - 
 Layer 1:   1 --- 3 --- 6
 ```
 
 ---
 
-## Layer 2 - Entry Point: Node 1
+## Layer 2 - Entry Point: Node 1 (assume node 1 was promoted to layer 2)
 
 ```
 Layer 2:   1
-```
-
----
-
-## Full Structure
-
-```
-Layer 2:        1
-
-Layer 1:        1 --- 3 --- 6
-
-Layer 0:   2 - 1 - 3 - 5 - 6 - 4
-                ╲       ╱
-                 1 --- 5
 ```
 
 ---
